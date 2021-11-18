@@ -5,7 +5,7 @@ module.exports = {
     open: true,
     proxy: {
       "/api/v1": {
-        target: "http://localhost:8080",
+        target: "http://k5c101.p.ssafy.io/api",
         changeOrigin: true,
         logLevel: "debug",
       },

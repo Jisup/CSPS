@@ -11,5 +11,4 @@ const root = {
   mutations,
   actions,
 };
-
 export default root;
